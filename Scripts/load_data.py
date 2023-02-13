@@ -28,17 +28,29 @@ for row in range(0, N):
     X1[row, 11] = X[row, 11]*100
     X1[row, 12] = X[row, 12]*67
 
+X2 = np.empty((731, 7))
 # standarize ratio data attributes for PCA
 X2 = X1[:, 9:16]
 X2 = X2 - np.ones((N, 1))*X2.mean(0)
 X2 = X2*(1/np.std(X2))
 
 # concatatenate the 2 arrays
-X1 = np.concatenate((X1[:, 0:9], X2), axis=1)
+Y = np.concatenate((X1[:, 0:9], X2), axis=1)
 
 # Check attributes and data shape
-N, M = X1.shape
-print("No. of instances, N: ", N)
-print("No. of attributes, M: ", M)
+N, M = X2.shape
+# print("No. of instances, N: ", N)
+# print("No. of attributes, M: ", M)
 
+for i in range(N):
+    for j in range(M):
+        X2[i, j] = float(X2[i, j])
+
+# print(type(X2[0, 0]))
+# print(type(X2[0, 1]))
+# print(type(X2[0, 2]))
+# print(type(X2[0, 3]))
+# print(type(X2[0, 4]))
+# print(type(X2[0, 5]))
+# print(type(X2[0, 6]))
 print("Finished running load_data.py")
