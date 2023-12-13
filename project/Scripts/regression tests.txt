@@ -1,0 +1,5 @@
+Thursday, 3.46pm
+- CV shuffle=True: check baseline error
+- check optimal lambda value
+- ANN optimizer: SGD lr=5e-3
+- h_values = [2,3,4]

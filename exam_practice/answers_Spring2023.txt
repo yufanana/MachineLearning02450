@@ -1,0 +1,37 @@
+ELECTRONIC HANDIN FOR THE 02450 EXAM SPRING 2023
+
+The exam is multiple choice. All questions have four possible answers marked by the letters A, B, C, and D as well as the answer “Don’t know” marked by the letter E. Correct answer gives 3 points, wrong answer gives -1 point, and “Don’t know” (E) gives 0 points.
+
+The individual questions are answered by replacing the question marks '?' at each of the 27 questions with one of the letters A, B, C, D, or E.
+
+Please do not change the file format or write additional comments asides your answers in terms of the letters A,B,C,D or E for each of the questions.
+
+Q01: A
+Q02: A
+Q03: B
+Q04: D
+Q05: C
+Q06: D
+Q07: B
+Q08: B
+Q09: A
+Q10: C
+
+Q11: C
+Q12: A
+Q13: A
+Q14: B
+Q15: B
+Q16: A
+Q17: B
+Q18: C
+Q19: D
+Q20: B
+
+Q21: D
+Q22: D
+Q23: A
+Q24: B
+Q25: A
+Q26: C
+Q27: D

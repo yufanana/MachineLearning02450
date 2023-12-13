@@ -1,0 +1,21 @@
+
+-------------------------------------------------------------------------------------------------------------------------------
+02450 Introduction to Machine Learning and Data Mining - 2023 Spring [03/31/2023, 14:57:48]
+
+
+Feedback for report no.: 1
+Group: 7
+Primary marker: Panagiotis Apostolidis
+
+Overall, this is a satisfactory report. You have included some well explained sections, but you have ommited answering some questions and there are some misunderstandings.
+
+The flow of the report is poor because you use a different subsection for each question. Also, you should include more text in continuous format and avoid bullet points. 
+Additionally, you should not include graphs and figures without further explaining what they represent and commenting on them.
+
+I really like the section about the description of the dataset. One additional thing you could have included is whether your data contain any corrupted data apart from missing values. 
+Also, have in mind that one-hot encoding of categorical variables is not really needed for the first report. You could include categorical variables in your PCA, but that would not necessarily make sense and provide any meaningful results.
+
+Regarding the Data Visualization section, your argumentation on the outlier detection and the correlation of data are really strong and complete. However, you are completely missing any discussion about whether the data appear to be normally distributed, and any further discussion about the contribution of your data visualization to the primary machine learning goal. 
+
+Lastly, the PCA section is quite poor, as you are not commening in depth on the results that you have extracted. 
+First of all, you should make clearwhich variables are the ones that you used to performed PCA. Furthermore, you do not project the data on the first principal components, but on the original dimensions (attributes) of your dataset.

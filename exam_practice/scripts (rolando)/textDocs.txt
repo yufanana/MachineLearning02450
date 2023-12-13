@@ -1,0 +1,3 @@
+the bag of words representation should not give you a hard time
+
+remember the representation should be a vector

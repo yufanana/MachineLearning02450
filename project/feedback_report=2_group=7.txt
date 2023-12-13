@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------------------------------------------------------
+02450 Introduction to Machine Learning and Data Mining - 2023 Spring [05/15/2023, 15:48:27]
+
+
+Feedback for report no.: 2
+Group: 7
+Primary marker: Lucie Fontaine
+
+Please validate the list of student ids on this feedback form to make sure it is correct and matches the group when 
+you submitted report 2 (contact the course coordinator if there are issues with group membership/ids).
+
+Note: The feedback is provided for individual group members; however, it will typically be identical for all members
+unless the markers have found it necessary to differentiate the assessment and feedback.
+
+-------------------------------------------------------------------------------------------------------------------------------
+        
+Very good with a few issues. 
+
+Regression, part a:
+Good that you thought about ignoring the last category in one-hot encoding, but it was unclear what you meant by "each binary variable represents the difference between season_1 and season_4". 
+Good explanation of the predictions made by the linear model. However, it is a bit difficult to see on figure 2 what are the weight values of the model for the optimal lambda, so it would have been clearer to include them separately.
+
+Regression, part b:
+Very good. 
+However, from table 1, it seems that you standardized the variable cnt, which is not expected since it is the target. 
+
+Classification: 
+Also very good. However, you show the mean weight values plotted against the regularization factor without indicating which regularization factor results in the lowest generalization error. The predictions of the logistic regression model should be explained based on the weights obtained with the optimal regularization factor.
